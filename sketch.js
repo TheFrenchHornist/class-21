@@ -23,8 +23,8 @@ function draw() {
     movingRect.shapeColor = "blue";
     fixedRect.shapeColor = "purple";
   } else{
-    movingRect.shapeColor = "red";
-    fixedRect.shapeColor = "red";
+    movingRect.shapeColor = "white";
+    fixedRect.shapeColor = "white";
   }
 
   bounceOff(fixedRect, movingRect);
